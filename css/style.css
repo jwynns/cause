@@ -1,0 +1,245 @@
+body {
+  padding-top: 50px;
+  font-family: "Helvetica Neue", HelveticaNeue;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: #593617;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: 300;
+}
+.navbar-lov {
+  background: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: .5;
+}
+.navbar-lov .container,
+.navbar-lov container-fluid {
+  background: none;
+}
+.navbar-lov .navbar-toggle {
+  border: 1px solid #70ba77;
+}
+.navbar-lov .navbar-toggle .icon-bar {
+  background-color: #70ba77;
+}
+.navbar-brand {
+  color: #363;
+}
+.navbar-brand:hover {
+  color: #593617;
+}
+.navbar-brand .img-responsive {
+  max-width: 28px;
+  margin-top: -8px;
+  margin-left: -7px;
+}
+.navbar-nav li a {
+  color: #593617;
+  margin-right: 2px;
+}
+.navbar-nav li:hover a {
+  background-color: #faf2eb;
+}
+.navbar-nav .dropdown-menu {
+  border-color: #a4d3a8;
+}
+.navbar-nav .dropdown-menu .divider {
+  background-color: #a4d3a8;
+}
+.jumbotron,
+.navbar-lov {
+  border-bottom: 3px solid #a4d3a8;
+}
+.jumbotron {
+  background-color: #efe;
+}
+.jumbotron .three-c li {
+  text-align: center;
+  color: #593617;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.25em;
+  margin: 0;
+}
+.jumbotron + .subnav {
+  margin: -30px auto 30px;
+  border-bottom: 3px solid #a4d3a8;
+  background-color: #ffffff;
+}
+.jumbotron + .subnav .nav-pills {
+  text-align: center;
+}
+.jumbotron + .subnav .nav-pills li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin: 0;
+}
+.jumbotron + .subnav .nav-pills li a {
+  color: #363;
+}
+.jumbotron + .subnav .nav-pills li.active a {
+  color: #fff;
+  background-color: #a4d3a8;
+  border-radius: 0;
+}
+.jumbotron + .subnav .nav-pills li:hover a {
+  color: #593617;
+  background-color: #faf2eb;
+  border-radius: 0;
+}
+main .row:not(:first-of-type) {
+  border-top: 3px solid #a4d3a8;
+}
+dl.dl-horizontal dt {
+  max-width: 65px;
+}
+dl.dl-horizontal dd {
+  margin-left: 80px;
+}
+/* Footer */
+#footer {
+  margin-bottom: -150px;
+  clear: both;
+}
+.tomottoWrap {
+  position: relative;
+  background: #a4d3a8;
+}
+#tomotto {
+  text-align: center;
+  width: 960px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  line-height: 36px;
+  margin: auto;
+}
+.lookWrap {
+  position: relative;
+  background-color: #215A6D;
+  float: left;
+  width: 100%;
+}
+#look {
+  margin: auto;
+  width: 700px;
+}
+.section {
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 160px;
+  margin: 0 15px 15px 0;
+  font: 10pt verdana;
+  line-height: 1.6em;
+}
+.section h3 {
+  font-weight: normal;
+  font: 12pt Georgia;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.section a {
+  display: block;
+}
+.legality {
+  margin: auto;
+  width: 700px;
+  text-align: center;
+  clear: both;
+  font: 10pt verdana;
+  line-height: 2em;
+  padding: 40px 0 0 0;
+}
+/* About */
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.bg-1 {
+  background-color: #1abc9c;
+  /* Green */
+  color: #ffffff;
+}
+.bg-2 {
+  background-color: #474e5d;
+  /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff;
+  /* White */
+  color: #555555;
+}
+/* Contact */
+form.overslide {
+  width: 50%;
+  margin: 0px auto;
+  padding: 48px 0px;
+}
+form.overslide label {
+  display: block;
+  font-size: 16px;
+  color: #8c8c8c;
+  position: relative;
+  left: 20px;
+  top: 40px;
+  cursor: text;
+  transition: all 0.5s;
+}
+form.overslide label::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 3px;
+  background: #ff7800;
+  position: relative;
+  top: -40px;
+  left: -20px;
+  transition: all 0.5s;
+}
+form.overslide label.focused {
+  top: 0px;
+  color: rgba(140, 140, 140, 0.6);
+  cursor: initial;
+}
+form.overslide label.focused::after {
+  width: 100%;
+  top: 8px;
+}
+form.overslide input,
+form.overslide textarea {
+  background-color: rgba(140, 140, 140, 0.25);
+  padding: 20px;
+  margin-bottom: 8px;
+  border: none;
+  color: #8c8c8c;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  transition: all 0.5s;
+}
+form.overslide input.focused,
+form.overslide textarea.focused {
+  outline: none;
+  background: transparent;
+  margin-bottom: 16px;
+}
